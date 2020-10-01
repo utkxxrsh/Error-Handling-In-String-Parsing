@@ -29,7 +29,7 @@ int main(){
     string S;
     cin >> S;
     try{
-        int z=stoi(S);
+        int z=stoi(S);   //stoi function is inbuilt in c++ for string parsing
         cout<<z;
     }
     catch(exception e){
